@@ -1,9 +1,8 @@
 <?php
 
 
-// generate an api token in your account (https://dash.cloudflare.com/profile/api-tokens).
-// it must have permissions to access the records you need to update, but do make it target
-// specific zones so if this token is somehow compromised, it doesn't have too much power.
+// generate an api token in your account (https://dash.cloudflare.com/profile/api-tokens) and
+// give it permission to access the zone(s) you need to update.
 $api_token = "XXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
 
