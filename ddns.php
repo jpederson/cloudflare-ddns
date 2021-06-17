@@ -2,7 +2,7 @@
 
 
 // require the config file to be present.
-( require( './config.php' ) ) or die( "Config file not found." );
+( require( 'config.php' ) ) or die( "Config file not found." );
 
 
 // a small function to get the response
